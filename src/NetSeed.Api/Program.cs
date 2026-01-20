@@ -32,6 +32,18 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // =============================================================
 builder.Services.AddScoped<DatabaseHealthChecker>();
 
+// [CORRECCIÓN 1] REGISTRAR EL SERVICIO CORS
+// Permitimos cualquier origen (*) para evitar problemas mientras aprendes.
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
+
 // =============================================================
 // DEPENDENCY INJECTION: REPOSITORIES
 // =============================================================
@@ -88,5 +100,6 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseCors("AllowAll");
 app.MapControllers();
 app.Run();
