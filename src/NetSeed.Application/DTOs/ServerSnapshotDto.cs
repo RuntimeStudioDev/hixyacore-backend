@@ -2,10 +2,12 @@ namespace NetSeed.Application.DTOs;
 
 public sealed class ServerSnapshotDto
 {
-    // {"server_id":"Minecraft-Server",
+    // {
+    // "server_id":"Minecraft-Server",
     // "players":["xDxvidz"],
     // "player_count":1,
-    // "timestamp":1768875112610}
+    // "timestamp":1768875112610
+    // }
     
     public string Server_Id { get; set; } = default!;
     public List<string> Players { get; set; } = [];

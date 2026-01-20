@@ -17,10 +17,4 @@
     <ProjectReference Include="..\NetSeed.Infrastructure\NetSeed.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Content Include="..\..\.dockerignore">
-      <Link>.dockerignore</Link>
-    </Content>
-  </ItemGroup>
-
 </Project>

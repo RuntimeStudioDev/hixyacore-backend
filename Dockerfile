@@ -4,23 +4,23 @@
 FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /src
 
-# Copiamos solución y proyectos
-COPY *.sln .
+# Copiamos SOLO los csproj (para cache de restore)
 COPY src/NetSeed.Api/NetSeed.Api.csproj src/NetSeed.Api/
 COPY src/NetSeed.Application/NetSeed.Application.csproj src/NetSeed.Application/
 COPY src/NetSeed.Domain/NetSeed.Domain.csproj src/NetSeed.Domain/
 COPY src/NetSeed.Infrastructure/NetSeed.Infrastructure.csproj src/NetSeed.Infrastructure/
 
-# Restore
-RUN dotnet restore
+# Restore SOLO de la API (arrastrará dependencias)
+RUN dotnet restore src/NetSeed.Api/NetSeed.Api.csproj
 
-# Copiamos todo
+# Copiamos el resto del código
 COPY src/ src/
 
-# Build
+# Publish
 RUN dotnet publish src/NetSeed.Api/NetSeed.Api.csproj \
     -c Release \
-    -o /app/publish
+    -o /app/publish \
+    --no-restore
 
 # =========================
 # RUNTIME STAGE
