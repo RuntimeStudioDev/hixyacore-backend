@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/NetSeed.Api.props" />
+</Project>

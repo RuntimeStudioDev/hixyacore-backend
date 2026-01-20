@@ -1,0 +1,16 @@
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Application/bin/Debug/net8.0/NetSeed.Application.deps.json
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Application/bin/Debug/net8.0/NetSeed.Application.dll
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Application/bin/Debug/net8.0/NetSeed.Application.pdb
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Application/bin/Debug/net8.0/NetSeed.Domain.dll
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Application/bin/Debug/net8.0/NetSeed.Domain.pdb
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Application/obj/Debug/net8.0/NetSeed.Application.csproj.AssemblyReference.cache
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Application/obj/Debug/net8.0/NetSeed.Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Application/obj/Debug/net8.0/NetSeed.Application.AssemblyInfoInputs.cache
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Application/obj/Debug/net8.0/NetSeed.Application.AssemblyInfo.cs
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Application/obj/Debug/net8.0/NetSeed.Application.csproj.CoreCompileInputs.cache
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Application/obj/Debug/net8.0/NetSeed.Application.sourcelink.json
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Application/obj/Debug/net8.0/NetSeed.Application.csproj.CopyComplete
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Application/obj/Debug/net8.0/NetSeed.Application.dll
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Application/obj/Debug/net8.0/refint/NetSeed.Application.dll
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Application/obj/Debug/net8.0/NetSeed.Application.pdb
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Application/obj/Debug/net8.0/ref/NetSeed.Application.dll

@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "NetSeed.Application/1.0.0": {
+        "dependencies": {
+          "NetSeed.Domain": "1.0.0"
+        },
+        "runtime": {
+          "NetSeed.Application.dll": {}
+        }
+      },
+      "NetSeed.Domain/1.0.0": {
+        "runtime": {
+          "NetSeed.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NetSeed.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "NetSeed.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

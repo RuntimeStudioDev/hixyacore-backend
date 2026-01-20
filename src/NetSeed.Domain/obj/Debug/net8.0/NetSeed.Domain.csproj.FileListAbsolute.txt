@@ -1,0 +1,12 @@
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Domain/bin/Debug/net8.0/NetSeed.Domain.deps.json
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Domain/bin/Debug/net8.0/NetSeed.Domain.dll
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Domain/bin/Debug/net8.0/NetSeed.Domain.pdb
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Domain/obj/Debug/net8.0/NetSeed.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Domain/obj/Debug/net8.0/NetSeed.Domain.AssemblyInfoInputs.cache
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Domain/obj/Debug/net8.0/NetSeed.Domain.AssemblyInfo.cs
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Domain/obj/Debug/net8.0/NetSeed.Domain.csproj.CoreCompileInputs.cache
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Domain/obj/Debug/net8.0/NetSeed.Domain.sourcelink.json
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Domain/obj/Debug/net8.0/NetSeed.Domain.dll
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Domain/obj/Debug/net8.0/refint/NetSeed.Domain.dll
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Domain/obj/Debug/net8.0/NetSeed.Domain.pdb
+/home/kevin/Desktop/hixyacore-backend/src/NetSeed.Domain/obj/Debug/net8.0/ref/NetSeed.Domain.dll
